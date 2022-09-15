@@ -1,0 +1,37 @@
+/* *{
+    margin:0;
+    padding:0;
+    font-family: 'Courier New', Courier, monospace
+} */
+
+h1{
+    text-align: center;
+}
+
+header{
+    background-color: pink;
+    color: white;
+    width: 100%;
+}
+
+/*hace referencia a la clase nav dentro de nav*/
+
+.nav{
+    background-color: plum;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: pink;
+    color: white;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    height: 50px;
+    margin-top: 0px;
+}
