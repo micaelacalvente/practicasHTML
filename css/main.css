@@ -3,11 +3,6 @@
     padding:0;
     font-family: 'Courier New', Courier, monospace
 } */
-
-h1{
-    text-align: center;
-}
-
 header{
     background-color: pink;
     color: white;
@@ -20,8 +15,12 @@ header{
     background-color: plum;
     color: white;
     text-decoration: none;
-    padding: 5px;
+    padding: 0.3%;
+    margin: 0.3%;
     border-radius: 5px;
+    font-size: 1.5vw;
+    text-decoration: none;
+    left: 0;
 }
 
 footer{
@@ -33,5 +32,61 @@ footer{
     bottom: 0;
     padding: 20px;
     height: 50px;
-    margin-top: 0px;
+    margin-top: 0;
+}
+
+.imgindex, .imgabout{
+    width: 40%
+}
+
+h1{
+    font-size: 3vw;
+    text-align: center;
+}
+
+h2{
+    font-size: 2vw;
+}
+
+h3, h4, h5{
+    font-size: 1.5vw;
+}
+
+.social{
+    color:white;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+label, input{
+    font-size: 1.0vw;
+}
+input[type=text], input[type=date]{
+    width: 80%;
+    padding: 1vw;
+    margin: 1vw;
+    display: inline-block;
+    border: 1vw;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: palevioletred;
+    color:white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: rgb(214, 91, 132);
+}
+
+.formulario{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 2%;
+    margin: 1% 20%;
 }
